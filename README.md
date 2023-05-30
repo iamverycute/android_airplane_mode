@@ -13,3 +13,6 @@ If the SDK version is too high, the "**setAirplaneMode**" method will not be fou
 通过反射实现飞行模式开关，SDK版本不能太高，我使用的是SDK24。
 
 如果SDK版本过高，将无法通过反射类找到"**setAirplaneMode**"方法！
+
+## About
+Old version: https://github.com/iamverycute/TAM
