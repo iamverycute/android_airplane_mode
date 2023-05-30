@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">android_airplane_mode</string>
+    <string name="airplane">Airplane Mode</string>
+    <string name="need_permission">Please install shizuku app and grant permissions.</string>
+</resources>
