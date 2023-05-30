@@ -1,0 +1,36 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.iamverycute.air'
+    compileSdk 24
+
+    defaultConfig {
+        applicationId "com.iamverycute.air"
+        minSdk 24
+        //noinspection ExpiredTargetSdkVersion
+        targetSdk 24
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildToolsVersion '24.0.3'
+}
+
+dependencies {
+    def shizuku_version = "13.1.1"
+    implementation "dev.rikka.shizuku:api:$shizuku_version"
+
+    // Add this line if you want to support Shizuku
+    implementation "dev.rikka.shizuku:provider:$shizuku_version"
+
+}

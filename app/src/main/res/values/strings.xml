@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">android_airplane_mode</string>
+    <string name="airplane">Airplane Mode</string>
+</resources>
